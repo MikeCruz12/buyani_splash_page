@@ -87,6 +87,13 @@
     bottom: 20px
 }
 
+#lehoa-id a:hover, #buyani-pay a:hover, #buyani-mall a:hover {
+	color: #202897;
+    background-color: #ffffff;
+    text-decoration: none;
+    transition: .2s;
+}
+
 #lehoa-id h2, #buyani-pay h2, #buyani-mall h2 {
 	text-align: center;
 	font-weight: 900;
