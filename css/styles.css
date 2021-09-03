@@ -1,0 +1,572 @@
+#header-banner {
+	background-image: url("../images/banner.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: block;
+	margin: auto;
+	width: 100% !important;
+}
+
+#header-banner a {
+	color: #000000;
+	font-weight: 700;
+}
+
+#logo {
+	width: 150px;
+	height: auto;
+}
+
+.buyani-text {
+	font-size: 20px;
+}
+
+#welcome-content h4 {
+	margin-top: 12px;
+	margin-bottom: 18px;
+	font-weight: 600;
+	font-size: 32px;
+}
+
+#welcome-content h3 {
+	font-weight: 600;
+	font-size: 20px;
+}
+
+#welcome-content p {
+	font-size: 15px;
+	margin-bottom: 18px;
+}
+
+#bm-header {
+	width: 125px;
+	height: auto;
+}
+
+#buyani-mall {
+	background-color: #FCECE1;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 303px;
+	margin-bottom: 80px !important;
+}
+
+#buyani-pay {
+	background-color: #E2DEDB;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 303px;
+	margin-bottom: 80px !important;
+}
+
+#lehoa-id {
+	background-color: #E3E3F2;
+	padding: 0px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	height: 303px;
+	margin-bottom: 80px !important;
+}
+
+#lehoa-id a, #buyani-pay a, #buyani-mall a {
+	color: #ffffff;
+    background-color: #202897;
+    width: 94%;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    padding: 6px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 20px
+}
+
+#lehoa-id h2, #buyani-pay h2, #buyani-mall h2 {
+	text-align: center;
+	font-weight: 900;
+	margin-top: 10px;
+	font-size: 25px;
+	margin-bottom: 25px;
+}
+
+#lehoa-id h5, #buyani-pay h5, #buyani-mall h5 {
+	font-weight: 700;
+	font-size: 18px;
+}
+
+
+.white-card-over {
+	background-color: #ffffff;
+    border: 1px solid;
+    position: relative;
+    height: 343px; 
+    top: -30px;
+    border-radius: 12px;
+    z-index: 99990;
+    box-shadow: 0px 7px 7px #888888
+}
+
+footer {
+	margin-top: 150px;
+}
+
+.footer-buyani-logo {
+	width: 86px;
+    height: auto;
+    position: relative;
+    top: -5px;
+    left: 4px;
+}
+
+.footer-gentri-logo {
+	width: 120px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.footer-mall-logo {
+	width: 200px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+.footer-logo-container {
+	height: 150px;
+	width: 100%;
+}
+
+.footer-buyani-container {
+	position: relative;
+	top: 50px;
+}
+
+footer li {
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.blue-footer-border {
+	width: 100%;
+	height: 25px;
+	padding: 0px;
+	margin: 0px;
+	background-color: #202897;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 1200px) {
+	#lehoa-id, #buyani-pay, #buyani-mall {
+		padding-top: 12px;
+		padding-bottom: 12px;
+		height: 254px;
+	}
+
+	.white-card-over {
+	    min-height: 293px; 
+	    top: -30px;
+	    border-radius: 12px;
+	}
+
+	#lehoa-id a, #buyani-pay a, #buyani-mall a {
+	    margin-top: 20px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: top center;
+		height: 345px;
+	}
+
+	#lehoa-id, #buyani-pay, #buyani-mall {
+	    padding-top: 10px;
+    	padding-bottom: 10px;
+    	height: 167px;
+    	margin-bottom: 160px !important;
+	}
+
+	.white-card-over {
+	    height: 220px; 
+	    top: -35px;
+	    border-radius: 12px;
+	}
+
+	#lehoa-id a, #buyani-pay a, #buyani-mall a {
+	    margin-top: 14px;
+	    font-size: 16px;
+	}
+
+	#lehoa-id h2, #buyani-pay h2, #buyani-mall h2 {
+		margin-top: 5px;
+		font-size: 20px;
+		margin-bottom: 15px;
+	}
+
+	#lehoa-id h5, #buyani-pay h5, #buyani-mall h5 {
+		font-weight: 700;
+		font-size: 16px;
+	}
+
+	#lehoa-id p, #buyani-pay p, #buyani-mall p {
+		font-size: 14px;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px) {
+
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: top center;
+		height: 345px;
+	}
+
+	.footer-buyani-container {
+	    position: unset;
+	    text-align: center;
+	}
+
+	.footer-buyani-container span {
+	   	display: block;
+	   	margin-bottom: 10px;
+	}
+
+	footer ul {
+		width: 325px;
+	    display: block;
+	    margin: auto;
+	}
+
+
+	#lehoa-id .container, #buyani-pay .container, #buyani-mall .container {
+		max-width: unset !important;
+	}
+
+	#lehoa-id, #buyani-pay, #buyani-mall {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		height: 475px !important;
+		margin-bottom: 150px !important;
+	}
+
+	.white-card-over {
+		max-width: 540px;
+		margin:auto;
+		padding-right: 15px;
+    	padding-left: 15px;
+	    height: 300px; 
+	    top: -35px;
+	    border-radius: 12px;
+	}
+
+	#lehoa-id a, #buyani-pay a, #buyani-mall a {
+	    margin-top: 30px;
+	    font-size: 20px;
+	}
+
+	#lehoa-id h2, #buyani-pay h2, #buyani-mall h2 {
+		margin-top: 10px;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	#lehoa-id h5, #buyani-pay h5, #buyani-mall h5 {
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	#lehoa-id p, #buyani-pay p, #buyani-mall p {
+		font-size: 16px;
+	}
+
+}
+
+@media only screen and (max-width: 575px) {
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: top center;
+		height: 390px;
+	}
+
+	#lehoa-id .container, #buyani-pay .container, #buyani-mall .container {
+		max-width: unset !important;
+	}
+
+	#lehoa-id, #buyani-pay, #buyani-mall {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		height: 460px !important;
+		margin-bottom: 150px !important;
+	}
+
+	.white-card-over {
+		max-width: 380px;
+		margin:auto;
+		padding-right: 15px;
+    	padding-left: 15px;
+	    height: 350px; 
+	    top: -20px;
+	    border-radius: 12px;
+	}
+
+	#lehoa-id a, #buyani-pay a, #buyani-mall a {
+	    margin-top: 30px;
+	    font-size: 20px;
+	}
+
+	#lehoa-id h2, #buyani-pay h2, #buyani-mall h2 {
+		margin-top: 10px;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	#lehoa-id h5, #buyani-pay h5, #buyani-mall h5 {
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	#lehoa-id p, #buyani-pay p, #buyani-mall p {
+		font-size: 16px;
+	}
+
+}
+
+
+@media only screen and (max-width: 424px) {
+	footer ul {
+		width: 300px;
+	    display: block;
+	    margin: auto;
+	}
+
+	footer li {
+		font-size: 12px;
+	}
+
+	#lehoa-id .container, #buyani-pay .container, #buyani-mall .container {
+		max-width: unset !important;
+	}
+
+	#lehoa-id, #buyani-pay, #buyani-mall {
+		padding-top: 15px;
+		padding-bottom: 15px;
+		height: 350px !important;
+		margin-bottom: 132px !important;
+	}
+
+	.white-card-over {
+		max-width: 300px;
+		margin:auto;
+		padding-right: 15px;
+    	padding-left: 15px;
+	    height: 300px; 
+	    top: -20px;
+	    border-radius: 12px;
+	}
+
+	#bm-header {
+	    width: 100px;
+	    height: auto;
+	}
+
+	#lehoa-id a, #buyani-pay a, #buyani-mall a {
+	    margin-top: 30px;
+	    font-size: 16px;
+	}
+
+	#lehoa-id h2, #buyani-pay h2, #buyani-mall h2 {
+		margin-top: 10px;
+		font-size: 20px;
+		margin-bottom: 20px;
+	}
+
+	#lehoa-id h5, #buyani-pay h5, #buyani-mall h5 {
+		font-weight: 700;
+		font-size: 16px;
+	}
+
+	#lehoa-id p, #buyani-pay p, #buyani-mall p {
+		font-size: 14px;
+	}
+
+}
+
+@media only screen and (max-width: 576px) {
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: center center;
+		height: 700px;
+	}
+
+	#logo {
+	    width: 125px;
+	    height: auto;
+	    display: block;
+	    margin: auto;
+	    margin-top: 20px;
+	    margin-bottom: 0px;
+	}
+
+	.buyani-text {
+	    font-size: 19px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	header p {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: center center;
+		height: 700px;
+	}
+
+	#logo {
+	    width: 125px;
+	    height: auto;
+	    display: block;
+	    margin: auto;
+	    margin-top: 20px;
+	    margin-bottom: 0px;
+	}
+
+	.buyani-text {
+	    font-size: 19px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	header p {
+		font-size: 15px;
+	}
+}
+
+@media only screen and (max-width: 426px) {
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: center center;
+		height: 625px;
+	}
+
+	#logo {
+	    width: 100px;
+	    height: auto;
+	    display: block;
+	    margin: auto;
+	    margin-top: 20px;
+	    margin-bottom: 0px;
+	}
+
+	.buyani-text {
+	    font-size: 15px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	header p {
+		font-size: 13px;
+	}
+
+	#welcome-content h4 {
+	    font-size: 28px;
+	}
+
+	#welcome-content p {
+	    font-size: 16px;
+	}
+
+	#welcome-content h3 {
+	    font-weight: 600;
+	    font-size: 18px;
+	}
+}
+
+@media only screen and (max-width: 376px) {
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: center center;
+		height: 600px;
+	}
+
+	#logo {
+	    width: 100px;
+	    height: auto;
+	    display: block;
+	    margin: auto;
+	    margin-top: 20px;
+	}
+
+	.buyani-text {
+	    font-size: 14px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	header p {
+		font-size: 12px;
+	}
+
+	#welcome-content h4 {
+	    font-size: 26px;
+	}
+
+	#welcome-content p {
+	    font-size: 15px;
+	}
+
+	#welcome-content h3 {
+	    font-weight: 600;
+	    font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 345px) {
+	#header-banner {
+		background-image: url("../images/banner_mobile.png");
+		background-position: top center;
+		height: 600px;
+	}
+
+	#logo {
+	    width: 100px;
+	    height: auto;
+	    display: block;
+	    margin: auto;
+	    margin-top: 20px;
+	}
+
+	.buyani-text {
+	    font-size: 14px;
+	}
+
+	header {
+		text-align: center;
+	}
+
+	header p {
+		font-size: 12px;
+	}
+}
