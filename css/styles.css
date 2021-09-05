@@ -1,11 +1,25 @@
 #header-banner {
-	background-image: url("../images/banner.png");
-	background-position: center center;
-	background-repeat: no-repeat;
+	height: 370px;
+	overflow: hidden;
 	background-size: cover;
-	display: block;
-	margin: auto;
-	width: 100% !important;
+	background-repeat: no-repeat;
+}
+
+.banner-container {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+.img-banner {
+	width: 100%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	left: 15px;
 }
 
 #header-banner a {
@@ -169,7 +183,71 @@ footer li {
 	margin-top: 50px;
 }
 
+@media only screen and (min-width: 1600px) {
+	#header-banner {
+		height: 450px;
+		overflow: hidden;
+	}
+
+	#logo {
+		width: 180px;
+		height: auto;
+	}
+
+	.buyani-text {
+		font-size: 22px;
+	}
+
+	#header-banner p {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	#header-banner {
+		height: 450px;
+		overflow: hidden;
+	}
+
+	#banner-content {
+		margin-top: 20px;
+	}
+
+	#logo {
+		width: 200px;
+		height: auto;
+	}
+
+	.buyani-text {
+		font-size: 24px;
+	}
+
+	#header-banner p {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (min-width: 2000px) {
+	#header-banner {
+		height: 550px;
+		overflow: hidden;
+	}
+
+	#banner-content {
+		margin-top: 40px;
+	}
+}
+
 @media only screen and (max-width: 1200px) {
+	.img-banner {
+	    width: auto;
+	    height: 320px;
+	    margin: 0px;
+	    padding: 0px;
+	    position: absolute;
+	    left: -150px;
+	}
+
 	#lehoa-id, #buyani-pay, #buyani-mall {
 		padding-top: 12px;
 		padding-bottom: 12px;
@@ -189,6 +267,10 @@ footer li {
 }
 
 @media only screen and (max-width: 991px) {
+	#desktop-banner {
+		display: none;
+	}
+
 	#header-banner {
 		background-image: url("../images/banner_mobile.png");
 		background-position: top center;
