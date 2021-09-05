@@ -98,7 +98,9 @@
     padding: 6px;
     font-size: 20px;
     position: absolute;
-    bottom: 20px
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #lehoa-id a:hover, #buyani-pay a:hover, #buyani-mall a:hover {
@@ -106,6 +108,7 @@
     background-color: #ffffff;
     text-decoration: none;
     transition: .2s;
+    border: 1px solid #202897;
 }
 
 #lehoa-id h2, #buyani-pay h2, #buyani-mall h2 {
